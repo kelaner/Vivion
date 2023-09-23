@@ -1,14 +1,14 @@
-import { StyleSheet } from 'react-native'
-import React from 'react'
+import { StyleSheet } from "react-native";
+import React from "react";
 
-import MainTab from './routes'
+import MainTab from "./routes";
 
 const index = () => {
-    return (
-        <MainTab />
-    )
-}
+  return (
+    <MainTab />
+  );
+};
 
-export default index
+export default index;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
